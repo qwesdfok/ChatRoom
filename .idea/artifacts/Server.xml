@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Server">
+    <output-path>$PROJECT_DIR$/out/artifacts/Server</output-path>
+    <root id="archive" name="Server.jar">
+      <element id="directory" name="com">
+        <element id="directory" name="qwesdfok">
+          <element id="directory" name="ChatRoom">
+            <element id="directory" name="ServerDeploy">
+              <element id="dir-copy" path="$PROJECT_DIR$/out/production/ChatRoom/com/qwesdfok/ChatRoom/ServerDeploy" />
+            </element>
+            <element id="directory" name="CommonModule">
+              <element id="dir-copy" path="$PROJECT_DIR$/out/production/ChatRoom/com/qwesdfok/ChatRoom/CommonModule" />
+            </element>
+          </element>
+          <element id="directory" name="Libs">
+            <element id="dir-copy" path="$PROJECT_DIR$/out/production/ChatRoom/com/qwesdfok/Libs" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Manifest/Server/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="extracted-dir" path="D:/UsersData/Libs/javalib/mysql-connector-java-5.1.36/mysql-connector-java-5.1.36-bin.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
